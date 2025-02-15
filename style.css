@@ -264,18 +264,9 @@ color: var(--background);
   background-repeat:repeat-y;
   position: relative;
 }
-.services::before{
-content:'';
-  position: absolute;
-  top:0;
-  left:0;
-  background:var(--sec-cols);
-  width:100%;
-  height:100%;
-isolation:isolate;
 
-}
 .services .container{
+  background-color:var(--sec-cols);
   height: max-content;
   width: 100%;
   padding:50px 0;
