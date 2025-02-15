@@ -258,7 +258,7 @@ color: var(--background);
   width: 100%;
   height: max-content;
   background:  url('1707122431024.jpg');
-  background-attachment: fixed;
+  background-attachment: scroll;
   overflow: hidden;
   padding: 0 0;
   background-repeat:no-repeat;
