@@ -262,6 +262,7 @@ color: var(--background);
   overflow: hidden;
   padding: 0 0;
   background-repeat:no-repeat;
+  background-position: center;
   position: relative;
 }
 .services::before{
