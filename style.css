@@ -261,6 +261,7 @@ color: var(--background);
   background-attachment: fixed;
   overflow: hidden;
   padding: 0 0;
+  background-repeat:no-repeat;
 }
 .services .container{
   background-color: var(--sec-cols);
