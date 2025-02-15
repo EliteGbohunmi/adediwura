@@ -270,6 +270,8 @@ color: var(--background);
   height: max-content;
   width: 100%;
   padding:50px 0;
+  position:sticky;
+  top:0;
 }
 .services .container > p{
   text-align: center;
