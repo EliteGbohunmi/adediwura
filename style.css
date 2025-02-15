@@ -367,7 +367,7 @@ padding: 10px 10px;
 @media (width < 768px) {
  ul{
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   left: 100%;
   background-color: var(--text-col);
  width: 100%;
