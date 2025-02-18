@@ -38,7 +38,7 @@ ScrollReveal().reveal(".three", {
   origin: "bottom",
   distance: "100px",
 });
-ScrollReveal().reveal(".first-side", {
+ScrollReveal().reveal(".first-slide", {
   delay: 400,
   origin: "bottom",
   distance: "100px",
