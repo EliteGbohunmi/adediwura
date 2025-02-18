@@ -471,4 +471,9 @@ cursor: pointer;
 .blogs .container{
   grid-template-columns: 1fr;
 }
+  .hero-cont .first_side h1{
+font-size: 37px;
+
+font-weight: 400;
+  }
 }
