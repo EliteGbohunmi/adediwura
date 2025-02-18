@@ -14,7 +14,47 @@ loop: true
     });
 
 ScrollReveal().reveal(".gg", {
-  delay: 50,
+  delay: 120,
   origin: "left",
+  distance: "100px",
+});
+ScrollReveal().reveal(".you", {
+  delay: 150,
+  origin: "bottom",
+  distance: "100px",
+});
+ScrollReveal().reveal(".one", {
+  delay: 150,
+  origin: "bottom",
+  distance: "100px",
+});
+ScrollReveal().reveal(".two", {
+  delay: 150,
+  origin: "bottom",
+  distance: "100px",
+});
+ScrollReveal().reveal(".three", {
+  delay: 150,
+  origin: "bottom",
+  distance: "100px",
+});
+ScrollReveal().reveal(".second_side", {
+  delay: 150,
+  origin: "bottom",
+  distance: "100px",
+});
+ScrollReveal().reveal(".card", {
+  delay: 150,
+  origin: "bottom",
+  distance: "100px",
+});
+ScrollReveal().reveal(".cardm", {
+  delay: 150,
+  origin: "bottom",
+  distance: "100px",
+});
+ScrollReveal().reveal(".chan", {
+  delay: 150,
+  origin: "top",
   distance: "100px",
 });
