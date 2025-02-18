@@ -39,9 +39,9 @@ ScrollReveal().reveal(".three", {
   distance: "100px",
 });
 ScrollReveal().reveal(".first-slide", {
-  delay: 400,
+  delay: 800,
   origin: "bottom",
-  distance: "100px",
+  distance: "200px",
 });
 ScrollReveal().reveal(".card", {
   delay: 300,
