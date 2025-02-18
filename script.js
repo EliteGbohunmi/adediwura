@@ -6,7 +6,11 @@ function toggleMenu() {
 
 var typed = new Typed('#element', {
       strings: ['Seo-Writer', 'Blog-writer', 'Social Media Manager'],
-      typeSpeed: 50,
+      typeSpeed: 150,  
+backSpeed: 100,  
+backDelay: 1000,  
+startDelay: 100,  
+loop: true
     });
 
 ScrollReveal().reveal(".gg", {
