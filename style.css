@@ -357,13 +357,13 @@ padding: 10px 10px;
     font-size: 14px;
   color: var(--background);
 }
-.blogs h2{
+ .gg{
 font-size: 2.2rem;
-padding: 0px 30px;
+padding: 0px 50px;
 position: relative;
 margin: 10px 0;
 }
-.blogs h2::before{
+ .gg::before{
 content: '';
 position: absolute;
 width: 5px;
@@ -398,6 +398,112 @@ margin-left: -10px;
 .blogs .btn{
   margin-left:auto ;
 }
+.reviews{
+  padding: 3rem 0;
+}
+.swiperb {
+  width: 90%;
+  height: 100%;
+  padding: 0 100px;
+  margin-inline: auto;
+}
+
+.swiper-slide {
+  font-size: 18px;
+
+  border-radius: 20px;
+background-color: rgba(255, 255, 255, 0.2);
+padding: 20px 20px;
+}
+.reviewcard{
+  display: grid;
+  gap: 1rem;
+ box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+ padding: 0 10px;
+}
+.reviewtxt .bbyy{
+  text-align: right;
+}
+.reviewhead {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 5px;
+}
+.reviewhead .icon {
+  width: 40px;
+  border-radius: 50%;
+}
+.icon img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position:center;
+  background-size:100%;
+  object-fit:cover;
+  
+}
+footer{
+  padding: 6rem 0;
+   background: #282828;
+}
+.foot_cont{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+place-items: center;
+  width: 100%;
+}
+footer h1{
+  text-align: center;
+margin: 20px 0;
+letter-spacing:3px;
+color: var(--background);
+}
+.foot_cont {
+  padding: 20px 0;
+}
+.foot_cont h2{
+  font-size: 19px;
+  text-align: center;
+  padding: 15px 0;
+  color:var(--background);
+  letter-spacing: 2px;
+}
+.foot_cont p {
+  padding: 7px 0;
+  font-size: 15px;
+  color: var(--footer-col);
+text-align: center;
+}
+.foot_cont p a{
+  padding: 20px 0;
+  font-size: 15px;
+  color: var(--footer-col);
+text-align: center;
+}
+.socials{
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.socials a{
+  font-size: 1.5rem;
+  color: var(--background);
+}
+footer hr{
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:10px auto ;
+
+}
+footer p{
+  text-align: center;
+  color: var(--background);
+}
 @media (width > 1024px) {
   .services .cards{
       gap: 4rem;
@@ -405,7 +511,11 @@ margin-left: -10px;
   }
 }
 @media (width < 1024px) {
-
+  
+  .swiperb{
+  width: 100%;
+  padding: 0 5px;
+  }
 .blogs .container {
   grid-template-columns: 1fr 1fr;
 }
@@ -471,9 +581,8 @@ cursor: pointer;
 .blogs .container{
   grid-template-columns: 1fr;
 }
-  .hero-cont .first_side h1{
-font-size: 33px;
-
-font-weight: 400;
-  }
+.swiperb{
+  width: 100%;
+  padding: 0 5px;
+}
 }
