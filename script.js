@@ -4,47 +4,47 @@ function toggleMenu() {
   document.querySelector("ul").classList.toggle("yh");
 }
 
-var typed = new Typed('#element', {
-      strings: ['Seo-Writer', 'Blog-writer', 'Social Media Manager'],
-      typeSpeed: 150,  
-backSpeed: 100,  
-backDelay: 1000,  
-startDelay: 100,  
-loop: true
-    });
+var typed = new Typed("#element", {
+  strings: ["Seo-Writer", "Blog-writer", "Social Media Manager"],
+  typeSpeed: 150,
+  backSpeed: 100,
+  backDelay: 1000,
+  startDelay: 100,
+  loop: true,
+});
 
 ScrollReveal().reveal(".gg", {
-  delay: 700,
+  delay: 200,
   origin: "left",
   distance: "100px",
 });
 ScrollReveal().reveal(".you", {
-  delay: 400,
+  delay: 200,
   origin: "bottom",
   distance: "100px",
 });
 ScrollReveal().reveal(".one", {
-  delay: 400,
+  delay: 200,
   origin: "bottom",
   distance: "100px",
 });
 ScrollReveal().reveal(".two", {
-  delay: 400,
+  delay: 200,
   origin: "bottom",
   distance: "100px",
 });
 ScrollReveal().reveal(".three", {
-  delay: 400,
+  delay: 200,
   origin: "bottom",
   distance: "100px",
 });
 ScrollReveal().reveal(".first-slide", {
-  delay: 800,
+  delay: 200,
   origin: "bottom",
-  distance: "200px",
+  distance: "150px",
 });
 ScrollReveal().reveal(".card", {
-  delay: 300,
+  delay: 200,
   origin: "bottom",
   distance: "100px",
 });
