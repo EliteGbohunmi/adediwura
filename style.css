@@ -60,7 +60,7 @@ nav ul li{
   list-style: none;
 }
 nav ul li a{
- color: var(--text-col);
+ color: white;
 }
 nav .logo{
   color: var(--sec-col);
