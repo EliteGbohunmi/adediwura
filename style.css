@@ -577,6 +577,11 @@ cursor: pointer;
  li i{
   color: var(--background);
  }
+  hero-cont .first_side h1{
+font-size: 35px;
+
+font-weight: 400;
+   }
  .about .container{
   grid-template-columns: 1fr;
  }
