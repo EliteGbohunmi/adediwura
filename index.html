@@ -47,7 +47,7 @@
       <ul>
         <li>
           <i class="fa-solid fa-house"></i>&nbsp;
-          <a href="#hero">Home</a>
+          <a href="#heros">Home</a>
         </li>
         <li>
           <i class="fa-solid fa-user"></i>&nbsp;<a href="#about">About</a>
@@ -55,6 +55,11 @@
         <li>
           <i class="fa-solid fa-pen-nib"></i>&nbsp;<a href="#services"
             >Services</a
+          >
+        </li>
+        <li>
+          <i class="fa-solid fa-pen-nib"></i>&nbsp;<a href="#blogs"
+            >Portfolio</a
           >
         </li>
         <li>
@@ -67,10 +72,10 @@
         </li>
       </ul>
       <div class="ham">
-        <a href="https://wa.link/7d24cp" target="_blank" class="walink"
+        <a href="contact.html" target="_blank" class="walink"
           >Email Me</a
         >
-
+<!-- https://wa.link/7d24cp -->
         <div class="menu-icon" onclick="toggleMenu()">
           <span class="line"></span>
           <span class="line"></span>
@@ -78,7 +83,8 @@
         </div>
       </div>
     </nav>
-    <section class="hero">
+
+    <section class="hero" id="heros">
       <div class="container hero-cont">
         <div class="first_side">
           <h1 class="you">Adediwura Afolabi</h1>
@@ -113,7 +119,8 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    
+    <section class="about" id="about">
       <div class="container">
         <div class="first-slide">
           <img src="IMG-20250113-WA0112.jpg" alt="" loading="lazy" />
@@ -156,7 +163,7 @@
         </button>
       </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <h2 class="chan">My Services</h2>
         <p>
@@ -171,7 +178,7 @@
                 src="laptop-notebook-wooden-desk.jpg"
                 alt="content-writing img"
                 loading="lazy"
-              />
+              /> 
             </div>
             <hr />
             <div class="card_title">
@@ -195,11 +202,11 @@
           </div>
           <div class="card">
             <div class="card_img">
-              <img
+               <img
                 src="top-view-cloud-with-word-seo.jpg"
                 alt="content-writing img"
                 loading="lazy"
-              />
+              /> 
             </div>
             <hr />
             <div class="card_title">
@@ -223,7 +230,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card_img">
+             <div class="card_img">
               <img
                 src="person-writing-notebook-table-with-laptop.jpg"
                 alt="content-writing img"
@@ -256,7 +263,7 @@
         </div>
       </div>
     </section>
-    <section class="blogs">
+    <section class="blogs" id="blogs">
       <h2 class="gg">Portfolio</h2>
       <div class="container">
         <div class="cardm">
@@ -443,7 +450,7 @@
         </div>
       </div>
     </section>
-    <section class="revise" id="revise">
+    <section class="revise" id="reviews">
       <h2 class="slide gg"><span class="coloredo"> Reviews </span></h2>
       <br />
       <br />
@@ -508,7 +515,19 @@ She created the content calendar for the whole period and she even helped me wit
         </div>
       </div>
     </section>
-
+<section class="cta">
+      <div class="container">
+        <h2>Ready to Elevate Your Content?</h2>
+        <p>
+          Let's work together to create compelling content that drives results. Whether you need blog posts, SEO content, or social media strategies, I'm here to help.
+        </p>
+        <div class="btn">
+          <button class="short-pad">
+            <a href="https://wa.link/7d24cp">Get in Touch</a>
+          </button>
+        </div>
+      </div>
+    </section>
     <footer>
       <h1>Adediwura</h1>
       <div class="foot_cont">
@@ -549,5 +568,19 @@ She created the content calendar for the whole period and she even helped me wit
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+    <script>
+            
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+     
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: true,
+        },
+     
+      });
+    </script>
   </body>
 </html>
