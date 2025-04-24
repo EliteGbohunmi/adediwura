@@ -58,3 +58,7 @@ ScrollReveal().reveal(".chan", {
   origin: "top",
   distance: "100px",
 });
+
+
+
+
