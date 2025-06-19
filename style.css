@@ -593,36 +593,7 @@ form{
 
 }
 @media (width < 768px) {
- ul{
-  flex-direction: column;
-  position: fixed;
-  left: 100%;
- width: 50%;
-align-items: flex-start;
- padding: 30px 0;
- transition: all 400ms ease;
- top: 10%;
- z-index: 999;
- height: 90vh;
- background-color: var(--text-col);
- border-radius:10px ;
- gap: 2rem;
- }
- nav ul li{
-padding: 10px 40px;
-width: 100%;
-cursor: pointer;
- }
- nav ul li a{
-   color: var(--background);
- }
- li:hover{
-  background: rgba(255,255,255,0.3);
-border-radius: 100vw 0 0 100vw ;
- }
- li i{
-  color: var(--background);
- }
+ 
  .about .container{
   grid-template-columns: 1fr;
  }
