@@ -100,7 +100,7 @@ li a:hover::before {
 }
 .menu .line{
     transition: all 400ms ease-in-out;
-    background-color: black;
+    background-color: white;
     width: 30px;
     height: 2px;
 
@@ -674,6 +674,9 @@ background:linear-gradient(270deg,#de2b2c,#fdf6e3) ;
   width: 100%;
   padding: 0 5px;
 }
+  nav{
+    padding:30px 25px;
+  }
   .hero-cont .first_side h1{
     font-size: 39px;
   }
