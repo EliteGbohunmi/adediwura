@@ -53,15 +53,12 @@ nav{
     padding: 10px 25px;
     position: relative;
     z-index: 9999;
-    background: #fdf6e3;
+    background:black;
+  color:white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 a{
     text-decoration: none;
-}
-nav .logo{
-    width: 70px;
-    height: 70px;
 }
 .logo img{
     border-radius: 50%;
@@ -615,7 +612,7 @@ form{
         transition: all 0.5s ease;
         align-items: flex-start;
         padding: 40px 0;
-        background: #2e3436;
+        background: black;
         border-top: 1px solid black;
         border-radius: 5px;
      
@@ -635,7 +632,9 @@ background:linear-gradient(270deg,#de2b2c,#fdf6e3) ;
         padding: 10px 20px;
         cursor: pointer;
         width: 100%;
+      color:white;
     }
+  
     li a{
         color: white;
       text-transform: uppercase;
