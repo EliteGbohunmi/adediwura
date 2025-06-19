@@ -1,7 +1,7 @@
-function toggleMenu() {
-  const menuIcon = document.querySelector(".menu-icon");
-  menuIcon.classList.toggle("active");
-  document.querySelector("ul").classList.toggle("yh");
+let menu = document.querySelector(".menu");
+function opens() {
+  document.querySelector("ul").classList.toggle("active");
+  document.querySelector(".menu").classList.toggle("yh");
 }
 
 var typed = new Typed("#element", {
