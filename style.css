@@ -104,8 +104,8 @@ nav .logo{
 .menu-icon.active .line:nth-child(3) {
   transform: translateY(-10px) rotate(-45deg);
 }
-.yh{
-left: calc(100% - 50%);
+.active{
+     left: 0;
 }
 .ham{
   display: flex;
