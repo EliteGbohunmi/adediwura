@@ -124,7 +124,6 @@ left: calc(100% - 50%);
 }
 .hero-cont .first_side h1{
 font-size: 45px;
-
 font-weight: 400;
 }
 .hero-cont .first_side h2{
@@ -649,4 +648,7 @@ border-radius: 100vw 0 0 100vw ;
   width: 100%;
   padding: 0 5px;
 }
+  .hero-cont .first_side h1{
+    font-size: 39px;
+  }
 }
