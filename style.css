@@ -35,6 +35,7 @@ section{
 }
 a{
     text-decoration: none;
+  
  
 }
 body{
@@ -91,6 +92,9 @@ li a::before{
 }
 li a:hover::before {
     width: 100%;
+}
+nav .logo a {
+color:red;
 }
 .menu{
     display: flex;
