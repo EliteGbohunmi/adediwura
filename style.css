@@ -54,7 +54,7 @@ nav{
     padding: 20px 25px;
     position: relative;
     z-index: 9999;
-    background:beige;
+    background:f0f0f0;
     color:#333333;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -101,7 +101,7 @@ li a:hover::before {
 }
 .menu .line{
     transition: all 400ms ease-in-out;
-    background-color: white;
+    background-color: black;
     width: 30px;
     height: 2px;
 
